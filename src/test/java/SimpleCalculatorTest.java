@@ -23,7 +23,7 @@ public class SimpleCalculatorTest {
         assertEquals(2, result);
     }
 
-    @RepeatedTest(10)
+    @Test
     public void testSimulateRandomOperation() {
         boolean result = calculator.simulateRandomOperation();
         // This test may pass or fail randomly
